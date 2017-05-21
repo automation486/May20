@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: HomePage.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Avactis.com login feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: User enters positive and negative crediantials to verify application login funtionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: User enters positive and negative crediantials to verify application login funtionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User on avactis food website (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User clicks on login link on home page (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User lands on login page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User populates email field &lt;email&gt; and  password field &lt;password&gt; field and presses login button (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: User enters positive and negative crediantials to verify application login funtionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User on avactis food website (passed : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User clicks on login link on home page (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User lands on login page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User populates email field &quot;Seleniumhq1@gmail.com&quot; and  password field &quot;Seleniumhq1@gmail.com&quot; field and presses login button (passed : 3s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48106" started-at="2017-05-21T02:32:31Z" finished-at="2017-05-21T02:33:19Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:testRunner.CukesRunnerTest@148080bb]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="48106" started-at="2017-05-21T02:32:31Z" finished-at="2017-05-21T02:33:19Z">
+      <class name="testRunner.CukesRunnerTest">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:testRunner.CukesRunnerTest@148080bb]" name="run_cukes" duration-ms="48072" started-at="2017-05-20T22:32:31Z" description="Runs Cucumber Features" finished-at="2017-05-20T22:33:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: HomePage.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Avactis.com login feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: User enters positive and negative crediantials to verify application login funtionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: User enters positive and negative crediantials to verify application login funtionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User on avactis food website (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User clicks on login link on home page (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User lands on login page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User populates email field &lt;email&gt; and  password field &lt;password&gt; field and presses login button (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: User enters positive and negative crediantials to verify application login funtionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User on avactis food website (passed : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User clicks on login link on home page (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User lands on login page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User populates email field &quot;Seleniumhq1@gmail.com&quot; and  password field &quot;Seleniumhq1@gmail.com&quot; field and presses login button (passed : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- testRunner.CukesRunnerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
