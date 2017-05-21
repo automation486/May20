@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.DataProvider;
 
 import pages.HomePage;
 import pages.LoginPage;
@@ -45,11 +46,17 @@ public class StepsDefinitionTest {
 		System.out.println("Login Page Title is: " +homePage.getApplicationTitle());
 	  
 	}
-	@Then("^User populates email field \"([^\"]*)\" and  password field \"([^\"]*)\" field and presses login button$")
+	@Then("^User populates email field \"([^\"]*)\" and  password field \"([^\"]*)\" and presses login button$")
 	public void user_populates_email_field_and_password_field_field(String emailaddress, String password) throws Throwable {
 		loginPage= PageFactory.initElements(driver, LoginPage.class);
 		loginPage.enterAndLogin(emailaddress,password);
 	}
+	/*@DataProvider
+	public void data()
+	{
+		
+	}*/
+	
 
 
 }

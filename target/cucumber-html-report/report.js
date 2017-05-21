@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("HomePage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./src/test/java/features/HomePage.feature");
 formatter.feature({
   "comments": [
     {
@@ -105,7 +105,7 @@ formatter.step({
 });
 formatter.step({
   "line": 25,
-  "name": "User populates email field \u003cemail\u003e and  password field \u003cpassword\u003e field and presses login button",
+  "name": "User populates email field \u003cemail\u003e and  password field \u003cpassword\u003e and presses login button",
   "keyword": "And "
 });
 formatter.examples({
@@ -166,7 +166,7 @@ formatter.step({
 });
 formatter.step({
   "line": 25,
-  "name": "User populates email field \"Seleniumhq1@gmail.com\" and  password field \"Seleniumhq1@gmail.com\" field and presses login button",
+  "name": "User populates email field \"Seleniumhq1@gmail.com\" and  password field \"Seleniumhq1@gmail.com\" and presses login button",
   "matchedColumns": [
     0,
     1
@@ -177,21 +177,21 @@ formatter.match({
   "location": "StepsDefinitionTest.user_on_avactis_food_website()"
 });
 formatter.result({
-  "duration": 13322778690,
+  "duration": 16483083505,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_clicks_on_login_link_on_home_page()"
 });
 formatter.result({
-  "duration": 2466807849,
+  "duration": 2613059954,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_lands_on_login_page()"
 });
 formatter.result({
-  "duration": 10921000,
+  "duration": 38039822,
   "status": "passed"
 });
 formatter.match({
@@ -208,11 +208,11 @@ formatter.match({
   "location": "StepsDefinitionTest.user_populates_email_field_and_password_field_field(String,String)"
 });
 formatter.result({
-  "duration": 5782374156,
+  "duration": 5974807331,
   "status": "passed"
 });
 formatter.after({
-  "duration": 235074555,
+  "duration": 350081404,
   "status": "passed"
 });
 formatter.scenario({
@@ -240,7 +240,7 @@ formatter.step({
 });
 formatter.step({
   "line": 25,
-  "name": "User populates email field \"Seleniumhq2@gmail.com\" and  password field \"Seleniumhq1@gmail.com\" field and presses login button",
+  "name": "User populates email field \"Seleniumhq2@gmail.com\" and  password field \"Seleniumhq1@gmail.com\" and presses login button",
   "matchedColumns": [
     0,
     1
@@ -251,21 +251,21 @@ formatter.match({
   "location": "StepsDefinitionTest.user_on_avactis_food_website()"
 });
 formatter.result({
-  "duration": 10257956609,
+  "duration": 12254200524,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_clicks_on_login_link_on_home_page()"
 });
 formatter.result({
-  "duration": 2484590985,
+  "duration": 3074277511,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_lands_on_login_page()"
 });
 formatter.result({
-  "duration": 8390999,
+  "duration": 20177571,
   "status": "passed"
 });
 formatter.match({
@@ -282,11 +282,11 @@ formatter.match({
   "location": "StepsDefinitionTest.user_populates_email_field_and_password_field_field(String,String)"
 });
 formatter.result({
-  "duration": 3730141780,
+  "duration": 4466807421,
   "status": "passed"
 });
 formatter.after({
-  "duration": 182658289,
+  "duration": 357719732,
   "status": "passed"
 });
 });
