@@ -177,21 +177,21 @@ formatter.match({
   "location": "StepsDefinitionTest.user_on_avactis_food_website()"
 });
 formatter.result({
-  "duration": 16483083505,
+  "duration": 12472314750,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_clicks_on_login_link_on_home_page()"
 });
 formatter.result({
-  "duration": 2613059954,
+  "duration": 3587381898,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_lands_on_login_page()"
 });
 formatter.result({
-  "duration": 38039822,
+  "duration": 30670917,
   "status": "passed"
 });
 formatter.match({
@@ -208,11 +208,11 @@ formatter.match({
   "location": "StepsDefinitionTest.user_populates_email_field_and_password_field_field(String,String)"
 });
 formatter.result({
-  "duration": 5974807331,
+  "duration": 5987969666,
   "status": "passed"
 });
 formatter.after({
-  "duration": 350081404,
+  "duration": 620243258,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,21 +251,21 @@ formatter.match({
   "location": "StepsDefinitionTest.user_on_avactis_food_website()"
 });
 formatter.result({
-  "duration": 12254200524,
+  "duration": 15004307331,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_clicks_on_login_link_on_home_page()"
 });
 formatter.result({
-  "duration": 3074277511,
+  "duration": 3608925396,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_lands_on_login_page()"
 });
 formatter.result({
-  "duration": 20177571,
+  "duration": 11409808,
   "status": "passed"
 });
 formatter.match({
@@ -282,11 +282,11 @@ formatter.match({
   "location": "StepsDefinitionTest.user_populates_email_field_and_password_field_field(String,String)"
 });
 formatter.result({
-  "duration": 4466807421,
+  "duration": 4723310435,
   "status": "passed"
 });
 formatter.after({
-  "duration": 357719732,
+  "duration": 266381821,
   "status": "passed"
 });
 });
