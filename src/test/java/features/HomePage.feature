@@ -18,11 +18,12 @@
 #Sample Feature Definition Template
 Feature: Avactis.com login feature
 
+  #@loginIn
   Scenario Outline: User enters positive and negative crediantials to verify application login funtionality
     Given User on avactis food website
     When User clicks on login link on home page
     Then User lands on login page
-   And User populates email field <email> and  password field <password> and presses login button
+    And User populates email field <email> and  password field <password> and presses login button
 
     Examples: 
       | email                   | password                |

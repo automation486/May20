@@ -81,7 +81,13 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 21,
+  "comments": [
+    {
+      "line": 21,
+      "value": "#@loginIn"
+    }
+  ],
+  "line": 22,
   "name": "User enters positive and negative crediantials to verify application login funtionality",
   "description": "",
   "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality",
@@ -89,27 +95,27 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "User on avactis food website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "User clicks on login link on home page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "User lands on login page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 25,
+  "line": 26,
   "name": "User populates email field \u003cemail\u003e and  password field \u003cpassword\u003e and presses login button",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 27,
+  "line": 28,
   "name": "",
   "description": "",
   "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality;",
@@ -119,7 +125,7 @@ formatter.examples({
         "email",
         "password"
       ],
-      "line": 28,
+      "line": 29,
       "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality;;1"
     },
     {
@@ -127,7 +133,7 @@ formatter.examples({
         "\"Seleniumhq1@gmail.com\"",
         "\"Seleniumhq1@gmail.com\""
       ],
-      "line": 29,
+      "line": 30,
       "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality;;2"
     },
     {
@@ -135,14 +141,18 @@ formatter.examples({
         "\"Seleniumhq2@gmail.com\"",
         "\"Seleniumhq1@gmail.com\""
       ],
-      "line": 30,
+      "line": 31,
       "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality;;3"
     }
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 7731830158,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 29,
+  "line": 30,
   "name": "User enters positive and negative crediantials to verify application login funtionality",
   "description": "",
   "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality;;2",
@@ -150,22 +160,22 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "User on avactis food website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "User clicks on login link on home page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "User lands on login page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 25,
+  "line": 26,
   "name": "User populates email field \"Seleniumhq1@gmail.com\" and  password field \"Seleniumhq1@gmail.com\" and presses login button",
   "matchedColumns": [
     0,
@@ -177,21 +187,21 @@ formatter.match({
   "location": "StepsDefinitionTest.user_on_avactis_food_website()"
 });
 formatter.result({
-  "duration": 12472314750,
+  "duration": 9115546975,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_clicks_on_login_link_on_home_page()"
 });
 formatter.result({
-  "duration": 3587381898,
+  "duration": 3446172690,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_lands_on_login_page()"
 });
 formatter.result({
-  "duration": 30670917,
+  "duration": 14302888,
   "status": "passed"
 });
 formatter.match({
@@ -208,15 +218,19 @@ formatter.match({
   "location": "StepsDefinitionTest.user_populates_email_field_and_password_field_field(String,String)"
 });
 formatter.result({
-  "duration": 5987969666,
+  "duration": 5816284124,
   "status": "passed"
 });
 formatter.after({
-  "duration": 620243258,
+  "duration": 594580170,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4306834466,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 30,
+  "line": 31,
   "name": "User enters positive and negative crediantials to verify application login funtionality",
   "description": "",
   "id": "avactis.com-login-feature;user-enters-positive-and-negative-crediantials-to-verify-application-login-funtionality;;3",
@@ -224,22 +238,22 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "User on avactis food website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "User clicks on login link on home page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "User lands on login page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 25,
+  "line": 26,
   "name": "User populates email field \"Seleniumhq2@gmail.com\" and  password field \"Seleniumhq1@gmail.com\" and presses login button",
   "matchedColumns": [
     0,
@@ -251,21 +265,21 @@ formatter.match({
   "location": "StepsDefinitionTest.user_on_avactis_food_website()"
 });
 formatter.result({
-  "duration": 15004307331,
+  "duration": 8962311282,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_clicks_on_login_link_on_home_page()"
 });
 formatter.result({
-  "duration": 3608925396,
+  "duration": 2865029407,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinitionTest.user_lands_on_login_page()"
 });
 formatter.result({
-  "duration": 11409808,
+  "duration": 16316710,
   "status": "passed"
 });
 formatter.match({
@@ -282,11 +296,11 @@ formatter.match({
   "location": "StepsDefinitionTest.user_populates_email_field_and_password_field_field(String,String)"
 });
 formatter.result({
-  "duration": 4723310435,
+  "duration": 4080620902,
   "status": "passed"
 });
 formatter.after({
-  "duration": 266381821,
+  "duration": 340202169,
   "status": "passed"
 });
 });

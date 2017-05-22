@@ -4,6 +4,9 @@ package testRunner;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 
 import pages.HomePage;
@@ -16,19 +19,19 @@ import cucumber.api.java.en.When;
 import factory.BrowserFactory;
 import factory.DataProviderFactory;
 
-public class StepsDefinitionTest {
+public class StepsDefinitionTest{
 	
-	WebDriver driver;
+	WebDriver driver = HooksTest.driver;
 	HomePage homePage;
 	LoginPage loginPage;
-	@After
+/*	@After//("@loginIn")
 	public void tearDown()
 	{
 		BrowserFactory.closeBrowser(driver);
-	}
+	}*/
 	@Given("^User on avactis food website$")
 	public void user_on_avactis_food_website() throws Throwable {
-		driver = BrowserFactory.getBrowser("chrome");
+		//driver = BrowserFactory.getBrowser("chrome");
 		driver.get(DataProviderFactory.getConfig().getApplicationURL());
 		
 	    
